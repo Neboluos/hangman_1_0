@@ -19,8 +19,8 @@
 
 ### Lógica del Juego
 - [x] Predefinir algunas palabras.
-- [ ] Implementar la lectura aleatoria de palabras desde `palabras.py`.
-- [ ] Enmascarar la palabra oculta con guiones bajos (`_`).
+- [x] Implementar la lectura aleatoria de palabras desde `palabras.py`.
+- [x] Enmascarar la palabra oculta con guiones bajos (`_`).
 - [ ] Validar la entrada del usuario (solo letras de la [A-Z], no repetir letras, no números).
 - [ ] Controlar el sistema de 6 vidas y restar en caso de error.
 - [x] Hacer los ahorcados.
@@ -34,3 +34,8 @@
 
 1. Los ahorcados y las palabras los hice como una lista porque son más faciles de llamar al codigo principal
 - y porque puedo usar el import random en las palabras
+2. Probe el random de la seleccion de palabras
+3. Defini las vidas y las letras adivinadas para que el programa guarde las ingresadas por el usuario y sepa cuales han sido adivinadas
+4. Inicie un while porque se pide que el programa se cierre cuando el usuario lo quiera
+5. Defino palabras_adivinadas como vacio para que el programa vea si las letras de la palabra_secreta estan en ella, si no estan,-
+- las convierte en un guion bajo _
