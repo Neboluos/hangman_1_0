@@ -27,8 +27,10 @@
 - [x] Importar y mostrar el ahorcado correspondiente desde `ahorcado.py` según las vidas restantes.
 
 ### Finalización y Flujo
-- [ ] Mostrar mensaje de "Ganaste" o "Perdiste" (revelando la palabra).
-- [ ] Implementar el menú final para reiniciar el juego o salir del programa.
+- [x] Mostrar mensaje de "Ganaste" o "Perdiste" (revelando la palabra).
+- [x] Implementar el menú final para reiniciar el juego o salir del programa.
+
+### DEMASIDADO TEXTO
 
 ### Por que escogi esas desiciones
 
@@ -64,3 +66,11 @@ las convierte en un guion bajo _
 entonces se coloca r antes de la triple comillas para que el programa lo vea como un signo y ya, y no por lo que debe hacer
 
 #Del 6 hasta el 14 se me olvido que por cada solucion hacer un push, pero si lo probe varias veces, mala mia..
+
+15. Aqui ya seguia implementar el ganaste o perdiste, hice el de perder primero al final del programa, como el while seguia si las vidas no llegaban a 0 tenia sentido, pero no pense mas al como hacer que intentara de nuevo el usuario si el queria, entonces tuve que hacer un nuevo while que mientras fuera verdad se ejecutara
+
+16. Pase las vidas, el random, y la lista de palabras encontradas dentro del nuevo while para que siempre que se ejecutara de nuevo se reiniciara todo
+
+17. El while viejo lo pase dentro del nuevo while con todo el codigo que tenia, ahi si funciona el si perdiste se reinicie completamente al nuevo while reiniciando las vidas, el random, y la lista de letras encontradas
+
+18. Hice el si ganaste arriba del input porque cada que el codigo revise si la letra colocada no esta en la palabra_adivinada la va a agregar y quitara el _ , ahi tiene que volver al input pero ahora para volver siempre va a revisar si ya no quedan _ , asi si no quedan se muestea que ganaste y puedes escoger si intentar de nuevo o salir del programa
